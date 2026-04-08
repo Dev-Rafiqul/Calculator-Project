@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+#container{
+	width: 1080 px;
+	height: 800 px;
+	background: aqua;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+   /* /*background-image: url("https://images.unsplash.com/photo-1668394559082-ec8de901fe86?q=80&w=327&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");*/*/
+    background-position: center;
+    background-size: cover;
+}
+
+#calculator{
+	width: 320px;
+	height: 480px;
+	background: linear-gradient(145deg, #1f1f1f);
+	margin-left: 500px;
+	top: 20px;
+	position: relative;
+	border-radius: 20px;
+	/*box-shadow: 10px 10px 20px #141414,
+  -10px -10px 20px #3a3a3a;*/
+  Box-Shadow: 0 0 10px 0 rgba(5, 245, 245, 0),
+  inset -5px -5px 10px rgba(3, 3, 3, 0.5),
+  inset 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+#result{
+	height: 110px;
+	background: /*#9ba0aa;*/ #2c2c2c;
+    padding: 20px 20px 30px 20px;
+    Box-Shadow: 0 0 10px 0 rgba(5, 245, 245, 0),
+    inset -10px -10px 10px rgba(48, 44, 44, 0.5),
+    inset 10px 10px 10px rgba(0, 0, 0, 0.5);
+	
+  }
+
+  #rhome{
+  	height: 80px;
+    background: #9ba0aa;
+    border-radius: 10px;
+    /*padding: 10px 0px 10px 10px;*/
+    padding: 5px 0 5px 0;
+  }
+
+#history{
+	height: 30px;
+	text-align: right;
+	margin: 0 15px;
+	color: #000000;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#output{
+	height: 60px;
+	text-align: right;
+	margin: 0 15px;
+	color: #000000;
+	font-size: 35px;
+	font-weight: bold;
+	border-radius: 0 0 5px 5px;
+	padding-right: 5px;
+}
+
+#keyboard{
+	height: 400px;
+	padding: 10px 10px 40px ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.oparator, .number{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	float: left;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.number{
+  background: #7A7C85;
+  color: #fff;
+  Box-Shadow: -5px 0px 10px 0 rgba(0, 10, 10, 0.603);
+}
+
+.oparator{
+  background: green;
+  color: black;
+  Box-Shadow: -5px 0px 10px 0 rgba(0, 10, 10, 0.603);
+}
+
+button:nth-child(1){
+  background: blue;
+}
+
+p{
+  margin: 0;
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
